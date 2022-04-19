@@ -26,11 +26,13 @@ namespace RedisExchangeAPI.Web
         {
             services.AddSingleton<RedisService>();
             services.AddControllersWithViews();
+            services.AddRazorPages().AddRazorRuntimeCompilation();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, RedisService redisService)
         {
+            redisService.Connect();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -43,7 +45,7 @@ namespace RedisExchangeAPI.Web
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            redisService.Connect();
+            
 
             app.UseRouting();
 

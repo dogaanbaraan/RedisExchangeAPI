@@ -9,7 +9,7 @@ namespace RedisExchangeAPI.Web.Services
         private readonly string _redisHost;
         private readonly string _redisPort;
 
-        private IConnectionMultiplexer _redis;
+        private ConnectionMultiplexer _redis;
 
         public IDatabase db { get; set; }
         public RedisService(IConfiguration configuration)
@@ -20,7 +20,7 @@ namespace RedisExchangeAPI.Web.Services
 
         public void Connect()
         {
-            var configString = $"{_redisHost} : {_redisPort}";
+            var configString = $"{_redisHost}:{_redisPort}";
             _redis = ConnectionMultiplexer.Connect(configString);   
         }
 
