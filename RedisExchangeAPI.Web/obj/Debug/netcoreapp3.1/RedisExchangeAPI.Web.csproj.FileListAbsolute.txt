@@ -417,3 +417,5 @@ C:\Users\baran.dogan\Desktop\Çalışmalarım\Projeler\RedisExchangeAPI\RedisExc
 C:\Users\baran.dogan\Desktop\Çalışmalarım\Projeler\RedisExchangeAPI\RedisExchangeAPI.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 C:\Users\baran.dogan\Desktop\Çalışmalarım\Projeler\RedisExchangeAPI\RedisExchangeAPI.Web\bin\Debug\netcoreapp3.1\System.Text.Json.dll
 C:\Users\baran.dogan\Desktop\Çalışmalarım\Projeler\RedisExchangeAPI\RedisExchangeAPI.Web\obj\Debug\netcoreapp3.1\RedisExchangeAPI.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\baran.dogan\Desktop\Çalışmalarım\Projeler\RedisExchangeAPI\RedisExchangeAPI.Web\obj\Debug\netcoreapp3.1\Razor\Views\ListType\Index.cshtml.g.cs
+C:\Users\baran.dogan\Desktop\Çalışmalarım\Projeler\RedisExchangeAPI\RedisExchangeAPI.Web\obj\Debug\netcoreapp3.1\Razor\Views\ListType\Show.cshtml.g.cs
