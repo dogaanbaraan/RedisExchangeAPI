@@ -20,7 +20,7 @@ namespace RedisExchangeAPI.Web.Controllers
             db = _redisService.GetDb(2);
         }
         public IActionResult Index()
-        {
+        { 
             HashSet<string> nameList = new HashSet<string>();   
 
             if(db.KeyExists(listKey))

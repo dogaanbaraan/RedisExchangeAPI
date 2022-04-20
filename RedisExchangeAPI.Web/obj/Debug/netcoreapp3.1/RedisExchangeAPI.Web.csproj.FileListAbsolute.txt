@@ -420,3 +420,4 @@ C:\Users\baran.dogan\Desktop\Çalışmalarım\Projeler\RedisExchangeAPI\RedisExc
 C:\Users\baran.dogan\Desktop\Çalışmalarım\Projeler\RedisExchangeAPI\RedisExchangeAPI.Web\obj\Debug\netcoreapp3.1\Razor\Views\ListType\Index.cshtml.g.cs
 C:\Users\baran.dogan\Desktop\Çalışmalarım\Projeler\RedisExchangeAPI\RedisExchangeAPI.Web\obj\Debug\netcoreapp3.1\Razor\Views\ListType\Show.cshtml.g.cs
 C:\Users\baran.dogan\Desktop\Çalışmalarım\Projeler\RedisExchangeAPI\RedisExchangeAPI.Web\obj\Debug\netcoreapp3.1\Razor\Views\SetType\Index.cshtml.g.cs
+C:\Users\baran.dogan\Desktop\Çalışmalarım\Projeler\RedisExchangeAPI\RedisExchangeAPI.Web\obj\Debug\netcoreapp3.1\Razor\Views\SortedSetType\Index.cshtml.g.cs
