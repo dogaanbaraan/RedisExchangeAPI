@@ -1,0 +1,16 @@
+﻿@model Dictionary<string,string>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post" asp-action="Add" enctype="application/x-www-form-urlencoded">
+    <input type="text" name="name" />
+    <input type="text" name="value" />
+    <button type="submit"> Kayıt Et</button>
+</form>
+
+@foreach (var item in Model)
+{
+    <h2>@item.Key  =>  @item.Value <a asp-controller="Hash" asp-action="DeleteItem" asp-route-name="@item.Key">sil</a>  </h2>
+}
